@@ -1,0 +1,167 @@
+.op__container {
+  position: relative;
+  -webkit-transform: translate(9.5rem, -4vh);
+          transform: translate(9.5rem, -4vh);
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+
+.op__container .op__list {
+  background-color: white;
+  border-radius: 0.5rem;
+  margin: 0;
+  list-style: none;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.op__container .op__list .op__litem {
+  margin: 0.8rem;
+  width: 12rem;
+}
+
+.op__container .op__list .op__litem a {
+  text-decoration: none;
+  color: black;
+}
+
+.op__container .op__list .opl1 {
+  position: relative;
+  width: 100%;
+}
+
+.op__container .op__list .opl1 .op__laptophover {
+  width: 40rem;
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  display: none;
+  top: 0;
+  z-index: 2000;
+  right: 0;
+  background-color: white;
+  -webkit-transform: translate(98%, -1.3rem);
+          transform: translate(98%, -1.3rem);
+  height: 56vh;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.op__container .op__list .opl1 .op__laptophover span {
+  margin: 1rem 1rem;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.op__container .op__list .opl1 .op__laptophover:hover {
+  display: inline-block;
+}
+
+.op__container .op__list .opl1:hover .op__laptophover {
+  opacity: 1;
+  overflow: visible;
+  display: inline-block;
+}
+
+.op__container .op__list .opl1::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f109";
+  padding-right: 1rem;
+}
+
+.op__container .op__list .opl1::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f054";
+  padding-right: 1rem;
+  padding-left: 5.5rem;
+  cursor: pointer;
+}
+
+.op__container .op__list .opl2::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f108";
+}
+
+.op__container .op__list .opl3::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f108";
+}
+
+.op__container .op__list .opl4::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f03d";
+}
+
+.op__container .op__list .opl5::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f030";
+}
+
+.op__container .op__list .opl6::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f007";
+}
+
+.op__container .op__list .opl7::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f381";
+}
+
+.op__container .op__list .opl8::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f09e";
+}
+
+.op__container .op__list .opl9::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f025";
+}
+
+.op__container .op__list .opl10::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f49e";
+}
+
+.op__container .op__list .opl11::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0b1";
+}
+
+.op__container .op__list .opl12::before {
+  padding-right: 1rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f3cd";
+}
+
+.op__display {
+  opacity: 0;
+  visibility: hidden;
+}
+/*# sourceMappingURL=op.css.map */

@@ -1,0 +1,110 @@
+.cart__container {
+  width: 14rem;
+  background-color: white;
+  text-align: center;
+  padding: 0 2rem;
+  padding-right: 3rem;
+  border: 2px solid rgba(119, 119, 119, 0.356);
+}
+
+.cart__container .cart__see {
+  color: white;
+  background-color: #1435c3;
+  text-decoration: none;
+  display: inline-block;
+  width: 14rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cart__container .cart__see:hover {
+  background-color: #0f2794;
+}
+
+.cart__container .cart__pay {
+  color: white;
+  background-color: #1435c3;
+  display: inline-block;
+  width: 14rem;
+  text-decoration: none;
+  padding: 0.4rem 0;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cart__container .cart__pay:hover {
+  background-color: #0f2794;
+}
+
+.cart__container .cart__price {
+  color: #777;
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 15px;
+  border-bottom: 2px solid rgba(80, 76, 76, 0.288);
+}
+
+.cart__container .cart__productC {
+  height: 10rem;
+  width: 14rem;
+  overflow-y: scroll;
+  padding-right: 3rem;
+}
+
+.cart__container .cart__productC .cart__product {
+  border-bottom: 1px solid rgba(80, 76, 76, 0.288);
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart__container .cart__productC .cart__product .cart__close {
+  font-size: 25px;
+  -webkit-transform: translate(2rem, 0.5rem);
+          transform: translate(2rem, 0.5rem);
+  color: rgba(119, 119, 119, 0.616);
+}
+
+.cart__container .cart__productC .cart__product .cart__close:hover {
+  color: red;
+}
+
+.cart__container .cart__productC .cart__product .cart__img {
+  padding-right: 1rem;
+}
+
+.cart__container .cart__productC .cart__product .cart__img > img {
+  width: 5rem;
+}
+
+.cart__container .cart__productC .cart__product .cp__infor .cp__name {
+  font-size: 10px;
+  text-decoration: none;
+  color: #0f2794;
+  font-weight: 500;
+}
+
+.cart__container .cart__productC .cart__product .cp__infor .cp__name:hover {
+  color: red;
+}
+
+.cart__container .cart__productC .cart__product .cp__infor .cp__pricec .cpp__price {
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.cart__container .cart__productC .cart__product .cp__infor .cp__pricec .cpp__quantity {
+  color: rgba(119, 119, 119, 0.63);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0;
+  width: 25px;
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=cart.css.map */

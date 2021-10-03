@@ -1,0 +1,36 @@
+.product__container {
+  background-color: blueviolet;
+  padding: 1rem 1rem;
+  width: 200px;
+}
+
+.product__container .product__a {
+  text-decoration: none;
+  color: black;
+}
+
+.product__container .product__a .product__img {
+  width: 100%;
+}
+
+.product__container .product__a .product__name {
+  font-size: .9rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.product__container .product__a .product__name:hover {
+  color: palevioletred;
+}
+
+.product__container .product__priceold {
+  color: #1537ce9a;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.product__container .product__pricenew {
+  color: #1435C3;
+  font-weight: bold;
+}
+/*# sourceMappingURL=product.css.map */

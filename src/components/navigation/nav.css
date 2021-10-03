@@ -1,0 +1,305 @@
+.topNav {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 8px 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topNav .topNav__services .s__item {
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.topNav .topNav__services .s__item:hover {
+  color: #d34a4a;
+}
+
+.topNav .topNav__services .i1::before {
+  padding-right: 0.5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f155";
+}
+
+.topNav .topNav__services .i2::before {
+  padding-right: 0.5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0d1";
+}
+
+.topNav .topNav__services .i3::before {
+  padding-right: 0.5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f2b5";
+}
+
+.topNav .topNav__services .i4::before {
+  padding-right: 0.5rem;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f1da";
+}
+
+.topNav .topNav__lrcontainer {
+  padding-left: 38%;
+  font-size: 12.4px;
+}
+
+.topNav .topNav__lrcontainer .tN__login {
+  padding-right: 1rem;
+  border-right: 1px solid white;
+  cursor: pointer;
+}
+
+.topNav .topNav__lrcontainer .tN__login:hover {
+  color: #d34a4a;
+}
+
+.topNav .topNav__lrcontainer .tN__cart {
+  padding-left: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.topNav .topNav__lrcontainer .tN__cart .cart__container {
+  position: absolute;
+  top: 1.5rem;
+  right: 0;
+  z-index: 3000;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.topNav .topNav__lrcontainer .tN__cart .countItem {
+  position: absolute;
+  text-align: center;
+  top: 0.5rem;
+  right: -1.1rem;
+  background-color: #1435C3;
+  font-weight: bold;
+  border-radius: 50%;
+  color: white !important;
+  padding: 1px 6px;
+}
+
+.topNav .topNav__lrcontainer .tN__cart:hover .cart__container {
+  opacity: 1;
+  visibility: visible;
+}
+
+.topNav .topNav__lrcontainer .tN__cart:hover {
+  color: #d34a4a;
+}
+
+.topNav .topNav__lrcontainer .tN__cart::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f07a";
+}
+
+.Nav__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10%;
+}
+
+.Nav__wrap .Nav__logo {
+  padding: 5px;
+}
+
+.Nav__wrap .Nav__logo .Nav__logoImg {
+  width: 289px;
+  height: 77px;
+}
+
+.Nav__wrap .Nav__container {
+  margin-right: 4.5rem;
+  position: relative;
+}
+
+.Nav__wrap .Nav__container .Nav__search {
+  width: 600px;
+  height: 2rem;
+  margin: 1.5rem 2rem;
+  outline: none;
+  padding-left: 1rem;
+}
+
+.Nav__wrap .Nav__container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f002";
+  padding: 7px 10px;
+  position: absolute;
+  top: 27px;
+  right: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  background-color: #1435C3;
+  color: white;
+  border-radius: 5px;
+}
+
+.Nav__wrap .Nav__contact {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 1rem 0;
+  font-size: 14px;
+  text-align: center;
+  width: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+.Nav__wrap .Nav__contact .Nav__Ccontent {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.Nav__wrap .Nav__contact .Nav__Cnumber {
+  font-size: 20px;
+  margin: 0;
+  font-style: italic;
+  color: #1435C3;
+  font-weight: bold;
+}
+
+.Nav__wrap .Nav__contact::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f2a0";
+  position: absolute;
+  font-size: 25px;
+  color: #1435C3;
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  padding: 5px 10px;
+  border-radius: 50%;
+  top: 10px;
+  left: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: white;
+}
+
+.Menu__container {
+  background-color: #1435C3;
+  padding: 0 10%;
+}
+
+.Menu__container .Menu__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.Menu__container .Menu__list .Menu__lItem {
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 0.5rem;
+}
+
+.Menu__container .Menu__list .Menu__lItem a {
+  color: white;
+  text-decoration: none;
+}
+
+.Menu__container .Menu__list .Menu__lItem i {
+  color: #f1c40f;
+}
+
+.Menu__container .Menu__list .Menu__lItem .fa-bars {
+  color: white;
+}
+
+.Menu__container .Menu__list .product {
+  font-size: 15px;
+  background-color: #f1c40f;
+  margin-right: 4rem;
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+}
+
+.Menu__container .Menu__list .op__container {
+  position: absolute;
+  top: 4.8rem;
+  left: -9.5rem;
+}
+
+.Menu__container .Menu__list .product:hover .op__container {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Menu__container .Menu__list .display {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Menu__container .Menu__list .deal {
+  font-size: 16px;
+  background-image: -webkit-gradient(linear, left top, right top, from(yellow), to(#d43f3f));
+  background-image: linear-gradient(to right, yellow, #d43f3f);
+  position: relative;
+}
+
+.Menu__container .Menu__list .deal::after {
+  content: '';
+  position: absolute;
+  border-left: 45px solid #1435C3;
+  border-top: 47px solid #f8df0b;
+  top: 0;
+  left: -20px;
+}
+
+.Menu__container .Menu__list .deal::before {
+  content: '';
+  position: absolute;
+  border-right: 45px solid #1435C3;
+  border-top: 47px solid #dc6134;
+  top: 0;
+  right: -20px;
+}
+
+.Menu__fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3000;
+  -webkit-animation-name: navfix;
+          animation-name: navfix;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+
+@-webkit-keyframes navfix {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
+
+@keyframes navfix {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
+/*# sourceMappingURL=nav.css.map */

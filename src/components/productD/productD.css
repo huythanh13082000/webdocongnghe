@@ -1,0 +1,89 @@
+.PrD__wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f0f1;
+}
+
+.PrD__wrap .PrD__container {
+  background-color: #ffffff;
+  margin: 4rem 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.PrD__wrap .PrD__container .PrD__imgP {
+  width: 20rem;
+  height: 50vh;
+  border: 1px solid black;
+  margin-right: 3rem;
+}
+
+.PrD__wrap .PrD__container .fa-star {
+  color: #ffb400;
+}
+
+.PrD__wrap .PrD__container .PrD__priceold {
+  color: #ff6a6a;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.PrD__wrap .PrD__container .PrD__pricenew {
+  color: #e40000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.PrD__wrap .PrD__container .PrD__btncontainer {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.PrD__wrap .PrD__container .PrD__btncontainer .PrD__addTocart {
+  padding: 6px;
+  width: 13rem;
+  height: 2.7rem;
+  background-color: #1435c3;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1.5rem;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.PrD__wrap .PrD__container .PrD__btncontainer .PrD__addTocart > p {
+  font-size: 12px;
+}
+
+.PrD__wrap .PrD__container .PrD__btncontainer .PrD__addTocart:hover {
+  background-color: #0d1e61;
+}
+
+.PrD__wrap .PrD__container .PrD__btncontainer .PrD__pay {
+  padding: 6px;
+  width: 13rem;
+  height: 3.5rem;
+  background-color: #e40000;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.PrD__wrap .PrD__container .PrD__btncontainer .PrD__pay > p {
+  font-size: 12px;
+}
+
+.PrD__wrap .PrD__container .PrD__btncontainer .PrD__pay:hover {
+  background-color: #7c0d0d;
+}
+/*# sourceMappingURL=productD.css.map */
